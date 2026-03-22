@@ -2,6 +2,8 @@
 
 > A fully interactive, self-hosted lab for learning and testing OAuth 2.0 / OIDC flows, attack vectors, and security hardening, all in a single Node.js file.
 
+![OAuth Thumbnail](./OAuth%202.0%20security%20essentials%20in%20focus.png)
+
 ---
 
 ## 📖 Background & Research
