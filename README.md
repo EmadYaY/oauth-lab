@@ -10,12 +10,12 @@ This lab was built alongside a complete technical research paper covering the fu
 
 | Document | Description |
 |---|---|
-| 📄 **[OAuth_Complete_Research.pdf](./OAuth_Complete_Research.pdf)** | Full research paper — History · Architecture · CVEs · Security Hardening · RFCs. Covers OAuth 1.0, 2.0, OIDC, PKCE, Device Flow, DPoP, and advanced patterns like the Phantom Token Flow and API Gateway patterns. |
+| 📄 **[OAuth_Complete_Research.pdf](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6454142)** | Full research paper — History · Architecture · CVEs · Security Hardening · RFCs. Covers OAuth 1.0, 2.0, OIDC, PKCE, Device Flow, DPoP, and advanced patterns like the Phantom Token Flow and API Gateway patterns. |
 | 🧪 **[OAuth_Lab_Test_Cases.pdf](./OAuth_Lab_Test_Cases.pdf)** | Step-by-step test case reference for the lab — 14 test cases with expected outputs, pass criteria, and checkboxes for every flow and vulnerability. |
 
 ## 🎥 OAuth 2.0 Security
 
-[▶️ Watch the video on YouTube](https://www.youtube.com/watch?v=VIDEO_ID)
+[▶️ Watch the video on YouTube](https://www.youtube.com/playlist?list=PLfNdRslbnf0Y2bD_opftFS69WDMgrQ6hT)
 
 ---
 
