@@ -1,6 +1,6 @@
 # 🔐 OAuth 2.0 Security Lab
 
-> A fully interactive, self-hosted lab for learning and testing OAuth 2.0 / OIDC flows, attack vectors, and security hardening — all in a single Node.js file.
+> A fully interactive, self-hosted lab for learning and testing OAuth 2.0 / OIDC flows, attack vectors, and security hardening, all in a single Node.js file.
 
 ---
 
@@ -12,6 +12,10 @@ This lab was built alongside a complete technical research paper covering the fu
 |---|---|
 | 📄 **[OAuth_Complete_Research.pdf](./OAuth_Complete_Research.pdf)** | Full research paper — History · Architecture · CVEs · Security Hardening · RFCs. Covers OAuth 1.0, 2.0, OIDC, PKCE, Device Flow, DPoP, and advanced patterns like the Phantom Token Flow and API Gateway patterns. |
 | 🧪 **[OAuth_Lab_Test_Cases.pdf](./OAuth_Lab_Test_Cases.pdf)** | Step-by-step test case reference for the lab — 14 test cases with expected outputs, pass criteria, and checkboxes for every flow and vulnerability. |
+
+## 🎥 OAuth 2.0 Security
+
+[▶️ Watch the video on YouTube](https://www.youtube.com/watch?v=VIDEO_ID)
 
 ---
 
@@ -35,7 +39,7 @@ Three services run from a **single file** (`lab.js`). The host IP is detected au
 └──────────┬──────────────────────┬───────────────┘
            │ server-to-server     │ server-to-server
            ▼                      ▼
-┌──────────────────┐   ┌──────────────────────────┐
+┌──────────────────┐   ┌───────────────────────────┐
 │  Auth Server     │   │  Resource API  :3002      │
 │  :3001           │   │                           │
 │  • /oauth/       │   │  • /api/status  (public)  │
@@ -43,9 +47,9 @@ Three services run from a **single file** (`lab.js`). The host IP is detected au
 │  • /oauth/token  │   │  • /api/posts   (read:*)  │
 │  • /oauth/device │   │  • /api/admin   (admin)   │
 │  • /oauth/       │   │  • /api/debug-token       │
-│    introspect    │   │  • JWT validation          │
-│  • /oauth/revoke │   │  • Scope enforcement       │
-│  • /.well-known/ │   └──────────────────────────┘
+│    introspect    │   │  • JWT validation         │
+│  • /oauth/revoke │   │  • Scope enforcement      │
+│  • /.well-known/ │   └───────────────────────────┘
 │    openid-config │
 └──────────────────┘
 ```
